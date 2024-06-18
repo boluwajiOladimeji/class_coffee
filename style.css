@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-link {
+    @apply py-2 px-6 hover:bg-secondary rounded-full text-light-gray capitalize font-semibold transition-all duration-200 ease-in;
+  }
+}
+
+/* .navlinks {
+  color: red;
+  background-color: blue;
+} */
